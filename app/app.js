@@ -6,7 +6,7 @@ const init = (data) => {
     app.use(express.static('static'));
 
     app.get('/', (req, res) => {
-        res.render('home/intro');
+        res.render('intro/_intro');
     });
 
 
